@@ -2,12 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>AngularApp</title>
+  <title>Home</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-  <app-root></app-root>
+  <div>
+    <h1>Angular Counter App</h1>
+    <app-counter></app-counter>
+  </div>
+  
+  <!-- <button (click)="openReactApp()">Toggle React App</button> -->
+  <iframe id="reactAppIframe" src="/react-app/index.html" style="width: 100%; display: none;"></iframe>
+  
+  <!-- <iframe id="reactAppIframe" src="/home/trilema/my-app/public/index.html" style="display: none;"></iframe> -->
+  
 </body>
 </html>
